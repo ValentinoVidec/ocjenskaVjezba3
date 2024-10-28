@@ -25,14 +25,6 @@ namespace ocjenskaVjezba
                     Console.WriteLine($"Prva riječ: {firstWord}");
                     Console.WriteLine($"Zadnja riječ: {lastWord}");
                 }
-                else
-                {
-                    Console.WriteLine("Rečenica ne sadrži riječi.");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Niste unijeli ništa.");
             }
             Console.ReadKey();
         }
